@@ -1,0 +1,19 @@
+package practice;
+
+public class Whizlabs {
+	
+	private String name;
+	private boolean pass;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Whizlabs wb=new Whizlabs();
+		System.out.print("name="+wb.name);
+		System.out.print(".pass="+wb.pass);
+			
+			
+		}
+
+	}
+
+

@@ -1,0 +1,45 @@
+package basics;
+
+import java.util.Scanner;
+
+public class SwitchDemo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 int number;
+         String size;
+         Scanner s=new Scanner(System.in);
+         System.out.println("Enter ur shirt size  : ");
+         number=s.nextInt();
+       
+         
+         
+        		 switch(number)
+        		 {
+        		 case 1:
+        		 case 2:
+        		 case 3:
+        			     size="kids";
+        			     break;
+        		 case 29:
+		                  size="small";
+		                  break;
+        		 case 42:
+        		           size="Medium";
+		                  break;
+        		 case 44: size="Large";
+		                   break;
+        		 case 48: size=" Extra Large";
+                 break;
+        		 default:
+        			 size=" Unknown";
+                     
+        			 break;
+        		 }
+        		 System.out.println("size : "+size);
+        		 s.close();
+
+
+	}
+
+}
