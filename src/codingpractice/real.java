@@ -32,7 +32,7 @@ public class real {
 				}
 			}
 			
-		return sm*(int)Math.pow(2, n3);
+		         return sm*(int)Math.pow(2, n3);
 		}
 	  
 		
